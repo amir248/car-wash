@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Автомойка с профессиональными услугами для вашего автомобиля. Быстро и качественно.">
+    <meta name="keywords" content="автомойка, мойка авто, чистка автомобилей, профессиональная мойка">
+    <meta name="author" content="Ваша компания">
+    <title>Автомойка - Качественная и быстрая мойка вашего автомобиля</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Автомойка "Чистый Авто"</h1>
+            <p>Быстрое и качественное обслуживание вашего автомобиля</p>
+            <a href="#services" class="btn">Наши услуги</a>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>О нас</h2>
+            <p>Мы — команда профессионалов, предлагающая высококачественные услуги по мойке автомобилей. В нашей автомойке используются только лучшие средства и оборудование, чтобы ваш автомобиль всегда был в идеальном состоянии.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="services">
+                <div class="service-item">
+                    <h3>Стандартная мойка</h3>
+                    <p>Полная мойка кузова и колес, уборка салона.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Премиум мойка</h3>
+                    <p>Мойка кузова, колес, двигателя и салона. Воск для защиты.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Химчистка салона</h3>
+                    <p>Профессиональная химчистка сидений, ковров и обивки.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2>Отзывы клиентов</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <p>"Лучшее обслуживание, мой автомобиль всегда как новый после мойки!" — Ирина</p>
+                </div>
+                <div class="testimonial">
+                    <p>"Быстро, качественно и по доступной цене. Рекомендую!" — Алексей</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Контакты</h2>
+            <p>Мы находимся по адресу: ул. Чистая, 5. Заказать услугу можно по телефону: <strong>+7 (999) 123-45-67</strong></p>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="email" name="email" placeholder="Ваш email" required>
+                <textarea name="message" placeholder="Сообщение" required></textarea>
+                <button type="submit" class="btn">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="date"></span> Автомойка "Чистый Авто". Все права защищены.</p>
+        </div>
+    </footer>
+    <script>
+        document.querySelector("#date").textContent= new Date().getFullYear;
+    </script>
+</body>
+</html>
